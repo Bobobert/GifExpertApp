@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas para el <GifGrid /> debe tener un comportamiento nominal(matchSnapshot) 1`] = `
+<div>
+  <h3>
+     
+    not-a-single-gif-in-this-dasdas
+     
+  </h3>
+  <p
+    class="animate__animated animate__shakeY"
+  >
+    Cargando . . .
+  </p>
+  <div
+    class="card-grid"
+    data-testid="GifGrid"
+  />
+</div>
+`;

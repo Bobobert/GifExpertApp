@@ -24,6 +24,7 @@ export const AddCategory = ( {setCategories} ) => {
             type="text"
             value={ inputValue }
             onChange={ handleInputChange }
+            autoFocus
         />
         </form>
 }

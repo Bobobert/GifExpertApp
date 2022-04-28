@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for the GifGridItem component simple snapshot 1`] = `
+<div>
+  <div
+    class="card animate__animated animate__fadeInDown animate__fast"
+    data-testid="GifGridItem"
+  >
+    <img
+      alt="Test title"
+      src="https://localhost/something.jpg"
+    />
+    <div
+      class="overlay"
+    >
+      <div
+        class="text"
+      >
+        This GIF!
+        <br />
+        Test title
+      </div>
+    </div>
+  </div>
+</div>
+`;

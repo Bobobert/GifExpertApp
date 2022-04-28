@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el <GifExpertApp /> debe mostrarse de manera correcta 1`] = `
+<div>
+  <h2>
+    GifExpertApp
+  </h2>
+  <form>
+    <input
+      type="text"
+      value=""
+    />
+  </form>
+  <hr />
+  <ol>
+    <h3>
+       
+      Hallo
+       
+    </h3>
+    <p
+      class="animate__animated animate__shakeY"
+    >
+      Cargando . . .
+    </p>
+    <div
+      class="card-grid"
+      data-testid="GifGrid"
+    />
+  </ol>
+</div>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddCategory /> debe mostrarse correctamente 1`] = `
+<div>
+  <form>
+    <input
+      type="text"
+      value=""
+    />
+  </form>
+</div>
+`;

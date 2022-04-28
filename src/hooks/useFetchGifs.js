@@ -1,4 +1,4 @@
-// custom hook desig
+// custom hook design
 
 import { useEffect, useState } from "react";
 import { getGifs } from "../helpers/getGifs";

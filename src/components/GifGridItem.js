@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export const GifGridItem = ({id, title, url}) => {
 
@@ -8,7 +9,8 @@ export const GifGridItem = ({id, title, url}) => {
     }
 
     return (
-        <div className="card animate__animated animate__fadeInDown animate__fast" onClick={handleCopy}>
+        <div className="card animate__animated animate__fadeInDown animate__fast" 
+            onClick={handleCopy} data-testid='GifGridItem'>
             <img src={ url } alt={ title }/>
             <div className='overlay'>
                 <div className='text'>
@@ -20,3 +22,9 @@ export const GifGridItem = ({id, title, url}) => {
     )
 }
 // extracted more info and style from this https://www.w3schools.com/css/css3_images.asp
+
+GifGridItem.propTypes = {
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+}
